@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import type { Metadata } from "next";
 import {
@@ -28,7 +27,7 @@ export default async function SignInPage({
 }) {
   const { callbackUrl } = await searchParams;
   return (
-    <Card className="border-border/80 shadow-sm">
+    <Card className="w-full max-w-sm border-border/80 shadow-sm">
       <CardHeader className="items-center text-center">
         <div className="mb-6 flex justify-center pt-2">
           <Image
