@@ -15,5 +15,5 @@ datasource db {
 
 model Test {
   id String @id @default(cuid())
-  
+  title String
 }
